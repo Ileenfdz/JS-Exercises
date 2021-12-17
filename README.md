@@ -1,6 +1,6 @@
 # JS-Exercises
 
-Daily exercise of Js -> Split Strings 6 Kyu.
+Daily exercise of Js -> Elevator distance 7 Kyu.
 
 ## Description
 

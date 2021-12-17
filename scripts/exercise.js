@@ -1,15 +1,22 @@
-export function splitStrings(str) {
-    let index = 0;
-    let result = [];
-    
-    if(str.length % 2 !== 0){
-      str += "_";
+export function findOutlier(integers){
+  let counterOods=0, counterEvens=0, oodNum=0, evenNum=0;
+
+  for(let i = 0;i < integers.length; i++){
+    const num = integers[i];
+
+    if(num % 2 == 0){
+      evenNum = num;
+      counterEvens++;
+    }else{
+      oodNum = num;
+      counterOods++;
     }
-    while(index < str.length){
-      result.push(str[index] + str[index + 1]);
-      index += 2;
+  }
+    if(counterEvens>counterOods){
+      console.log(oodNum);
+      return oodNum;
+    }else{
+      console.log(evenNum);
+      return evenNum;
     }
-    
-    console.log(result);
-    return result;
 }
