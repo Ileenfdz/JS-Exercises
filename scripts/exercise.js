@@ -1,15 +1,11 @@
-export function splitStrings(str) {
-    let index = 0;
-    let result = [];
-    
-    if(str.length % 2 !== 0){
-      str += "_";
-    }
-    while(index < str.length){
-      result.push(str[index] + str[index + 1]);
-      index += 2;
-    }
-    
-    console.log(result);
-    return result;
+export function finalGrade (exam, projects){
+  if(exam > 90 || projects > 10){
+    return (100);
+  }else if(exam > 75 && projects >= 5){
+    return (90);
+  }else if(exam > 50 && projects >= 2){
+    return (75);
+  }else{
+    return (0);
+  }
 }
