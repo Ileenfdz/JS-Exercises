@@ -3,6 +3,6 @@ export function uniTotal(str) {
   for (let i = 0; i < str.length; i++) {
     sum += str.charCodeAt(i);
   }
-  console.log("Total de " + str + "=" + " " + sum);
+  console.log("Total de " + str + " = " + sum);
   return sum;
 }

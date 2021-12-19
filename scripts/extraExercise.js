@@ -6,6 +6,6 @@ export function elevatorDistance(array) {
       sum = array[i] - array[i-1];
       distance += Math.abs(sum);
     }
-    console.log("Total de distancia de un piso a otro en el recorrido " + array + "=" + " " + distance);
+    console.log("Total de distancia de un piso a otro en el recorrido " + array + " = " + distance);
     return distance;
 }
