@@ -1,8 +1,11 @@
-import {finalGrade} from './exercise.js';
+import {uniTotal} from './exercise.js';
 
 export function app(){
     console.log("Connected to app");
-    finalGrade(100, 12);
-    finalGrade(85, 5);
+    uniTotal("a");//97
+    uniTotal("b");//98
+    uniTotal("c");//99
+    uniTotal("d");//100
+    uniTotal("e");//101
 }
 app();
