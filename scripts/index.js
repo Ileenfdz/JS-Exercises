@@ -1,20 +1,6 @@
-import {uniTotal} from './exercise.js';
-import {elevatorDistance } from './extraExercise.js';
-import {addBinary} from './extrax2exercise.js';
-
+import {findOdd} from './exercise.js';
 export function app(){
     // console.log("Connected to app");
-    uniTotal("a"); //Result should be = 97
-    uniTotal("b"); //Result should be = 98
-    uniTotal("c"); //Result should be = 99
-    uniTotal("d"); //Result should be = 100
-    uniTotal("e"); //Result should be = 101
-
-    elevatorDistance([5,2,8]); //Result should be = 9
-    elevatorDistance([1,2,3]); //Result should be = 2
-    elevatorDistance([7,1,7,1]); //Result should be = 18
-
-    addBinary(1,1); //Result should be = 10
-    addBinary(5,9); //Result should be = 1110
+    findOdd([1,1,2,3,4,2,3,4,5,6,6,7,6,6,7]); //Result should be = 5
 }
 app();
