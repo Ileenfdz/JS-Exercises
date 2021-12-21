@@ -1,6 +1,11 @@
-import {findOdd} from './exercise.js';
+import {saleHotdogs} from './exercise.js';
 export function app(){
     // console.log("Connected to app");
-    findOdd([1,1,2,3,4,2,3,4,5,6,6,7,6,6,7]); //Result should be = 5
+    saleHotdogs(1);//Result should be = 100
+    saleHotdogs(4);//Result should be = 400
+    saleHotdogs(5);//Result should be = 475
+    saleHotdogs(9);//Result should be = 855
+    saleHotdogs(10);//Result should be = 900
+    saleHotdogs(100);//Result should be = 9000
 }
 app();
