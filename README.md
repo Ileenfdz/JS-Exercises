@@ -4,9 +4,10 @@ Daily exercise using Js -> Find the odd int total 6 Kyu.
 
 ## Description
 
-Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accept 1 parameters:n, n is the number of customers to buy hotdogs, different numbers have different prices (refer to the following table), return a number that the customer need to pay how much money.
+Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
 
-number	price (cents)
-n < 5	100
-n >= 5 and n < 10	95
-n >= 10	90
+Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
+
+Example:
+n= 5, m=5: 25
+n=-5, m=5:  0
