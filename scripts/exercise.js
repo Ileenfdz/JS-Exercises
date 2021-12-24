@@ -1,1 +1,3 @@
-export function paperwork(n, m) {console.log(n<=0 || m<=0?0:n*m)}
+export function opposite(number) {
+    console.log(number - number * 2);
+}
