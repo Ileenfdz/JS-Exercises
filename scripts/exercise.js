@@ -7,3 +7,7 @@ export function positiveSum(arr) {
     }
     console.log(result);
 }
+
+export function twiceAsOld(dadYearsOld, sonYearsOld) {
+    console.log(Math.abs(dadYearsOld - 2 * sonYearsOld));
+}
