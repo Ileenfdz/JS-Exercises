@@ -11,3 +11,7 @@ export function positiveSum(arr) {
 export function twiceAsOld(dadYearsOld, sonYearsOld) {
     console.log(Math.abs(dadYearsOld - 2 * sonYearsOld));
 }
+
+export function hero(bullets, dragons){
+  console.log(bullets >= 2 * dragons?true:false);
+}
