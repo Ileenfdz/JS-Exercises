@@ -4,10 +4,8 @@ Daily exercise using Js -> Find the odd int total 6 Kyu.
 
 ## Description
 
-Very simple, given an integer or a floating-point number, find its opposite.
+You get an array of numbers, return the sum of all of the positives ones.
 
-Examples:
+Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
-1: -1
-14: -14
--34: 34
+Note: if there is nothing to sum, the sum is default to 0.
