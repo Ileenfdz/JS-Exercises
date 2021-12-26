@@ -1,16 +1,8 @@
-import { positiveSum, twiceAsOld,hero } from './exercise.js';
+import { makeNegative } from './exercise.js';
 export function app(){
     // console.log("Connected to app");
-    positiveSum([1,2,3,4,5])//Result should be = 15
-    positiveSum([1,-2,3,4,5])//Result should be = 13
-    positiveSum([-1,2,3,4,-5])//Result should be = 9
-
-    twiceAsOld(36,7)//Result should be = 22
-    twiceAsOld(55,30)//Result should be = 5
-    twiceAsOld(42,21)//Result should be = 0
-
-    hero(10,5)//Result should be = true
-    hero(8,2)//Result should be = true
-    hero(7,5)//Result should be = false
+    makeNegative(42)//Result should be = -42
+    makeNegative(-5)//Result should be = -5
+    makeNegative(0)//Result should be = 0
 }
 app();
