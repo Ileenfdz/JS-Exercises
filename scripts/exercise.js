@@ -3,3 +3,14 @@ export function numberToString(num) {
 }
 
 export function removeChar(str){console.log(str.slice(1,-1))}
+
+export function findSmallestInt(args) {
+    let small = 0;
+    for(let i = 0;i < args.length;i++){
+      if(args[i] <= args[0]){
+        args[0]  = args[i];    
+        small = args[i];
+      }
+    }
+    console.log(small);
+}
