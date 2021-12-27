@@ -1,4 +1,4 @@
-import { numberToString, removeChar, findSmallestInt } from './exercise.js';
+import { numberToString, removeChar, findSmallestInt, summation } from './exercise.js';
 export function app(){
     // console.log("Connected to app");
     numberToString(42)//Result should be = "42"
@@ -12,5 +12,9 @@ export function app(){
     findSmallestInt([20,3,500,2,1])//Result should be = "1"
     findSmallestInt([20,10,62,9,12])//Result should be = "9"
     findSmallestInt([21,31,5,23,14])//Result should be = "5"
+
+    summation(20)//Result should be = "210"
+    summation(2)//Result should be = "3"
+    summation(8)//Result should be = "36"
 }
 app();

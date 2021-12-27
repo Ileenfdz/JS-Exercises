@@ -14,3 +14,11 @@ export function findSmallestInt(args) {
     }
     console.log(small);
 }
+
+export function summation(num) {
+    let sum = 0;
+    for(let i = 0; i <= num; i++) {
+        sum += i;
+    }
+    console.log(sum);
+}
