@@ -1,1 +1,3 @@
-export function makeNegative(num) {console.log(num > 0?num * -1:num)}
+export function numberToString(num) {
+    console.log(num.toString());
+}
