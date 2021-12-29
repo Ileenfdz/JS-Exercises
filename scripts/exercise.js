@@ -8,3 +8,7 @@ export function squareSum(numbers){
   
   console.log(total);
 }
+
+export function noSpace(x){
+  console.log(x.split(' ').join(''));
+}
