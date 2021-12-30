@@ -1,3 +1,3 @@
-export function litres(time) {
-  console.log(Math.floor(time*0.5)) ;
+export function century(year) {
+    console.log(Math.ceil(year/100));
 }

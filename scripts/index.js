@@ -1,7 +1,7 @@
-import { litres } from './exercise.js';
+import { century } from './exercise.js';
 export function app(){
     // console.log("Connected to app");
-    litres(2)//Result should be = "1"
-    litres(12.3)//Result should be = "6"
+    century(1780)//Result should be = "18"
+    century(1970)//Result should be = "20"
 }
 app();
