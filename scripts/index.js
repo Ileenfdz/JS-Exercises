@@ -1,10 +1,7 @@
-import { squareSum, noSpace} from './exercise.js';
+import { litres } from './exercise.js';
 export function app(){
     // console.log("Connected to app");
-    squareSum([1,2])//Result should be = "5"
-    squareSum([0,3,4,5])//Result should be = "50"
-    
-    noSpace('8 j 8   mBliB8g  imjB8B8  jl  B')//Result should be = '8j8mBliB8gimjB8B8jlB'
-    noSpace('8aaaaa dddd r     ')//Result should be = '8aaaaaddddr'
+    litres(2)//Result should be = "1"
+    litres(12.3)//Result should be = "6"
 }
 app();
