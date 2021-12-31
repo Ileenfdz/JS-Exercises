@@ -1,3 +1,1 @@
-export function century(year) {
-    console.log(Math.ceil(year/100));
-}
+export function isDivisible(n, x, y) { console.log(n % x == 0 && n % y == 0?true:false)}

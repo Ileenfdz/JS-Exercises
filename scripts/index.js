@@ -1,7 +1,8 @@
-import { century } from './exercise.js';
+import { isDivisible } from './exercise.js';
 export function app(){
     // console.log("Connected to app");
-    century(1780)//Result should be = "18"
-    century(1970)//Result should be = "20"
+    isDivisible(3, 1, 3)//Result should be = true
+    isDivisible(12, 2, 6)//Result should be = true
+    isDivisible(100, 5, 3)//Result should be = false
 }
 app();
