@@ -6,5 +6,7 @@ export function app(){
     isDivisible(100, 5, 3)//Result should be = false
 
     greet("Riven")//Result should be = "Hello, Riven how are you doing today?"
+
+    digitize(35231)//Result should be = "[1,3,2,5,3]"
 }
 app();
