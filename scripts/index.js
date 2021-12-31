@@ -1,4 +1,4 @@
-import { isDivisible, greet } from './exercise.js';
+import { isDivisible, greet, digitize, maps } from './exercise.js';
 export function app(){
     // console.log("Connected to app");
     isDivisible(3, 1, 3)//Result should be = true
@@ -8,5 +8,7 @@ export function app(){
     greet("Riven")//Result should be = "Hello, Riven how are you doing today?"
 
     digitize(35231)//Result should be = "[1,3,2,5,3]"
+
+    maps([1, 2, 3])//Result should be = "[2, 4, 6]"
 }
 app();

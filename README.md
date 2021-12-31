@@ -13,3 +13,7 @@ Make a function that will return a greeting statement that uses an input; your p
 ## Description (Convert number to reversed array of digits)
 
 Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+## Description (Beginner - Lost Without a Map)
+
+Given an array of integers, return a new array with each value doubled.
