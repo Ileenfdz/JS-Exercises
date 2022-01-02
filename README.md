@@ -4,6 +4,4 @@ Daily exercise using Js -> Find the odd int total 6 Kyu.
 
 ## Description
 
-Clock shows h hours, m minutes and s seconds after midnight.
-
-Your task is to write a function which returns the time since midnight in milliseconds.
+Create a function called shortcut to remove all the lowercase vowels in a given string.
