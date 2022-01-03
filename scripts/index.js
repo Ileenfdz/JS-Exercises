@@ -1,5 +1,5 @@
-import { positiveSum, twiceAsOld,hero } from './exercise.js';
-export function app(){
+import { positiveSum, twiceAsOld,hero } from './exercise9.js';
+export function app9(){
     // console.log("Connected to app");
     positiveSum([1,2,3,4,5])//Result should be = 15
     positiveSum([1,-2,3,4,5])//Result should be = 13
