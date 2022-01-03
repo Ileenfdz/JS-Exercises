@@ -19,12 +19,15 @@ import { basicOp, reverseWords } from './exercise18.js';
 
 
 export function app1(){
-    splitStrings()
+    // console.log("Connected to app");
+    splitStrings("abcdef");
+    splitStrings("abcdefg");
+    splitStrings("");
 }
 app1();
 
 export function app2(){
-    console.log("Connected to app");
+    // console.log("Connected to app");
     findOutlier([0, 1, 2]);
     findOutlier([1, 2, 3]);
     findOutlier([2,6,8,10,3]);
@@ -34,7 +37,7 @@ export function app2(){
 app2();
 
 export function app3(){
-    console.log("Connected to app");
+    // console.log("Connected to app");
     finalGrade(100, 12);
     finalGrade(85, 5);
 
