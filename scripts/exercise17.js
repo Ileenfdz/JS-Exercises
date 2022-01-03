@@ -1,3 +1,3 @@
-export function shortcut(string){
-    console.log(string.replace(/[aeiou]/g, ''));
+export function getAverage(marks){
+    console.log(Math.floor(marks.reduce((x, y) => x + y) / marks.length));
 }

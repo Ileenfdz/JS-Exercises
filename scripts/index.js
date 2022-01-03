@@ -14,33 +14,29 @@ import { litres } from './exercise13.js';
 import { century } from './exercise14.js';
 import { isDivisible, greet, digitize, maps } from './exercise15.js';
 import { shortcut } from './exercise16.js';
-import { shortcut } from './exercise17.js';
+import { getAverage } from './exercise17.js';
 import { basicOp, reverseWords } from './exercise18.js';
 
 
 export function app1(){
     // console.log("Connected to app");
-    splitStrings("abcdef");
-    splitStrings("abcdefg");
-    splitStrings("");
+    splitStrings("abc");//Result should be = ['ab', 'c_']
+    splitStrings("abcdef");//Result should be = ['ab', 'cd, 'ef]
 }
 app1();
 
 export function app2(){
     // console.log("Connected to app");
-    findOutlier([0, 1, 2]);
-    findOutlier([1, 2, 3]);
-    findOutlier([2,6,8,10,3]);
-    findOutlier([0,0,3,0,0]);
-    findOutlier([1,1,0,1,1]);
+    findOutlier([2, 4, 0, 100, 4, 11, 2602, 36]);//Result should be = 11
+    findOutlier([160, 3, 1719, 19, 11, 13, -21]);//Result should be = 160
 }
 app2();
 
 export function app3(){
     // console.log("Connected to app");
-    finalGrade(100, 12);
-    finalGrade(85, 5);
-
+    finalGrade(100, 12);//Result should be = 100
+    finalGrade(85, 5);//Result should be = 90
+    finalGrade(55, 0);//Result should be = 0
 }
 app3();
 
@@ -187,8 +183,8 @@ app16();
 
 export function app17(){
     // console.log("Connected to app");
-    shortcut('hello')//Result should be = 'hll'
-    shortcut('how are you today?')//Result should be = 'hw r y tdy?
+    getAverage([2,2,2,2])//Result should be = 2
+    getAverage([1,2,3,4,5,])//Result should be = 3
 }
 app17();
 
