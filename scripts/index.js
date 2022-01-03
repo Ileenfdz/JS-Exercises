@@ -1,7 +1,4 @@
-import {uniTotal} from './exercise.js';
-import {elevatorDistance } from './extraExercise.js';
-import {addBinary} from './extrax2exercise.js';
-
+import {uniTotal, elevatorDistance, addBinary} from './exercise4.js';
 export function app(){
     // console.log("Connected to app");
     uniTotal("a"); //Result should be = 97
