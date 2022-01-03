@@ -1,5 +1,5 @@
-import {saleHotdogs} from './exercise.js';
-export function app(){
+import {saleHotdogs} from './exercise6.js';
+export function app6(){
     // console.log("Connected to app");
     saleHotdogs(1);//Result should be = 100
     saleHotdogs(4);//Result should be = 400
