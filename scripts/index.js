@@ -1,7 +1,7 @@
-import { shortcut } from './exercise.js';
+import { basicOp } from './exercise.js';
 export function app(){
     // console.log("Connected to app");
-    shortcut('hello')//Result should be = 'hll'
-    shortcut('how are you today?')//Result should be = 'hw r y tdy?
+    basicOp('+', 4, 7)//Result should be = 11
+    basicOp('-', 15, 18)//Result should be = -3
 }
 app();
