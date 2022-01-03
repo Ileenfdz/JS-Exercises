@@ -1,4 +1,4 @@
-import {finalGrade} from './exercise.js';
+import {finalGrade} from './exercise3.js';
 
 export function app(){
     console.log("Connected to app");
