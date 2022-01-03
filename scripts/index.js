@@ -78,8 +78,14 @@ export function app6(){
 }
 app6();
 
-
-
+export function app7(){
+    // console.log("Connected to app");
+    paperwork(5,5)//Result should be = 25
+    paperwork(0,5)//Result should be = 0
+    paperwork(5,0)//Result should be = 0
+    paperwork(2,5)//Result should be = 10
+}
+app7();
 
 export function app8(){
     // console.log("Connected to app");
