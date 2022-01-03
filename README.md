@@ -82,3 +82,15 @@ time = 11.8--> litres = 5
 ## Description(14)
 
 The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+## Description(15)
+
+Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero digits.
+
+--Description (Returning Strings)
+Make a function that will return a greeting statement that uses an input; your program should return, "Hello, <name> how are you doing today?".
+
+--Description (Convert number to reversed array of digits)
+Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+--Description (Beginner - Lost Without a Map)
+Given an array of integers, return a new array with each value doubled.
