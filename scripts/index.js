@@ -1,5 +1,5 @@
-import { basicOp, reverseWords } from './exercise.js';
-export function app(){
+import { basicOp, reverseWords } from './exercise18.js';
+export function app18(){
     // console.log("Connected to app");
     basicOp('+', 4, 7)//Result should be = 11
     basicOp('-', 15, 18)//Result should be = -3
