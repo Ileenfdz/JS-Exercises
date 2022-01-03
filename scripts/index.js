@@ -1,5 +1,5 @@
-import { isDivisible, greet, digitize, maps } from './exercise.js';
-export function app(){
+import { isDivisible, greet, digitize, maps } from './exercise15.js';
+export function app15(){
     // console.log("Connected to app");
     isDivisible(3, 1, 3)//Result should be = true
     isDivisible(12, 2, 6)//Result should be = true
