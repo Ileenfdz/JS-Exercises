@@ -2,6 +2,8 @@ import {splitStrings} from './exercise1.js';
 import {findOutlier} from './exercise2.js';
 import {finalGrade} from './exercise3.js';
 import {uniTotal, elevatorDistance, addBinary} from './exercise4.js';
+import {findOdd} from './exercise5.js';
+
 
 export function app1(){
     splitStrings()
@@ -42,4 +44,11 @@ export function app4(){
     addBinary(5,9); //Result should be = 1110
 }
 app4();
+
+
+export function app5(){
+    // console.log("Connected to app");
+    findOdd([1,1,2,3,4,2,3,4,5,6,6,7,6,6,7]); //Result should be = 5
+}
+app5();
 
