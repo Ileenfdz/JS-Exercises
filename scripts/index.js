@@ -4,9 +4,10 @@ import {finalGrade} from './exercise3.js';
 import {uniTotal, elevatorDistance, addBinary} from './exercise4.js';
 import {findOdd} from './exercise5.js';
 import {saleHotdogs} from './exercise6.js';
-import { opposite } from './exercise8.js';
 import { paperwork } from './exercise7.js';
+import { opposite } from './exercise8.js';
 import { positiveSum, twiceAsOld,hero } from './exercise9.js';
+import { makeNegative } from './exercise10.js';
 
 export function app1(){
     splitStrings()
@@ -66,13 +67,7 @@ export function app6(){
 app6();
 
 
-export function app7(){
-    // console.log("Connected to app");
-    opposite(1)//Result should be = -1
-    opposite(14)//Result should be = -14
-    opposite(50)//Result should be = -50
-}
-app7();
+
 
 export function app8(){
     // console.log("Connected to app");
@@ -97,6 +92,14 @@ export function app9(){
     hero(7,5)//Result should be = false
 }
 app9();
+
+export function app10(){
+    // console.log("Connected to app");
+    makeNegative(42)//Result should be = -42
+    makeNegative(-5)//Result should be = -5
+    makeNegative(0)//Result should be = 0
+}
+app10();
 
 
 
