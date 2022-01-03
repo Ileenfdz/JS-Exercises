@@ -7,4 +7,4 @@ export function app1(){
     splitStrings("");
 }
 
-app();
+app1();
