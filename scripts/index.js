@@ -1,6 +1,6 @@
 import {findOutlier} from './exercise2.js';
 
-export function app(){
+export function app2(){
     console.log("Connected to app");
     findOutlier([0, 1, 2]);
     findOutlier([1, 2, 3]);
