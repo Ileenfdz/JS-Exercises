@@ -70,11 +70,12 @@ Return True if yes, False otherwise :)
 ## Description(10)
 ## Description(11)
 ## Description(12)
+## Description(13)
 
-Complete the square sum function so that it squares each number passed into it and then sums the results together.
-
-For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
-
---Description (Remove String Spaces)
-
-Simple, remove the spaces from the string, then return the resultant string.
+Nathan loves cycling.
+Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+For example:
+time = 3 ----> litres = 1
+time = 6.7---> litres = 3
+time = 11.8--> litres = 5

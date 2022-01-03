@@ -10,7 +10,7 @@ import { positiveSum, twiceAsOld,hero } from './exercise9.js';
 import { makeNegative } from './exercise10.js';
 import { numberToString, removeChar, findSmallestInt, summation } from './exercise11.js';
 import { squareSum, noSpace} from './exercise12.js';
-
+import { litres } from './exercise13.js';
 
 
 
@@ -140,3 +140,10 @@ export function app12(){
     noSpace('8aaaaa dddd r     ')//Result should be = '8aaaaaddddr'
 }
 app12();
+
+export function app13(){
+    // console.log("Connected to app");
+    litres(2)//Result should be = "1"
+    litres(12.3)//Result should be = "6"
+}
+app13();
