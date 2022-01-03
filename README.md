@@ -2,7 +2,7 @@
 
 Daily exercise of Js -> finalGrade 8 Kyu.
 
-## Description
+## Description(3)
 
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
