@@ -47,11 +47,26 @@ Daily exercise using Js -> Find the odd int total 6 Kyu.
 ## Description(5)
 
 Given an array of integers, find the one that appears an odd number of times.
-
 There will always be only one integer that appears an odd number of times.
+
 ## Description(6)
-## Description(8)
+
+Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accept 1 parameters:n, n is the number of customers to buy hotdogs, different numbers have different prices (refer to the following table), return a number that the customer need to pay how much money.
+number	price (cents)
+n < 5	100
+n >= 5 and n < 10	95
+n >= 10	90
 ## Description(7)
+
+
+## Description(8)
+
+Very simple, given an integer or a floating-point number, find its opposite.
+Examples:
+1: -1
+14: -14
+-34: 34
+
 ## Description(9)
 
 You get an array of numbers, return the sum of all of the positives ones.
@@ -67,9 +82,58 @@ Your function takes two arguments:
 --Description (Hero)
 A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?
 Return True if yes, False otherwise :)
+
 ## Description(10)
+
+In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+Notes:
+The number can be negative already, in which case no change is required.
+Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
+
 ## Description(11)
+
+We need a function that can transform a number into a string.
+Notes:
+The number can be negative already, in which case no change is required.
+Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
+What ways of achieving this do you know?
+Examples:
+123 --> "123"
+999 --> "999"
+
+--Description (Remove First and Last Character)
+It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+--Description (Find the smallest integer in the array)
+Given an array of integers your solution should find the smallest integer.
+For example:
+Given [34, 15, 88, 2] your solution will return 2
+Given [34, -345, -1, 100] your solution will return -345
+You can assume, for the purpose of this kata, that the supplied array will not be empty.
+
+--Description (Grasshopper - Summation)
+Summation
+Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+For example:
+summation(2) -> 3
+1 + 2
+summation(8) -> 36
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 ## Description(12)
+
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
+For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
+
+--Description (Remove String Spaces)
+Simple, remove the spaces from the string, then return the resultant string.## Description(13)
+
+Nathan loves cycling.
+Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
+You get given the time in hours and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+For example:
+time = 3 ----> litres = 1
+time = 6.7---> litres = 3
+time = 11.8--> litres = 5
 ## Description(13)
 
 Nathan loves cycling.
@@ -79,6 +143,7 @@ For example:
 time = 3 ----> litres = 1
 time = 6.7---> litres = 3
 time = 11.8--> litres = 5
+
 ## Description(14)
 
 The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
@@ -94,5 +159,18 @@ Given a random non-negative number, you have to return the digits of this number
 
 --Description (Beginner - Lost Without a Map)
 Given an array of integers, return a new array with each value doubled.
+
 ## Description(16)
+
+Create a function called shortcut to remove all the lowercase vowels in a given string.
 ## Description(17)
+
+
+## Description(18)
+
+Your task is to create a function that does four basic mathematical operations.
+The function should take three arguments - operation(string/char), value1(number), value2(number).
+The function should return result of numbers after applying the chosen operation.
+
+--Description(Reversed Words)
+Complete the solution so that it reverses all of the words within the string passed in.

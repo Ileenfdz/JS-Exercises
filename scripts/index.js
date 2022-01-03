@@ -15,7 +15,7 @@ import { century } from './exercise14.js';
 import { isDivisible, greet, digitize, maps } from './exercise15.js';
 import { shortcut } from './exercise16.js';
 import { shortcut } from './exercise17.js';
-
+import { basicOp, reverseWords } from './exercise18.js';
 
 
 export function app1(){
@@ -182,3 +182,13 @@ export function app17(){
     shortcut('how are you today?')//Result should be = 'hw r y tdy?
 }
 app17();
+
+export function app18(){
+    // console.log("Connected to app");
+    basicOp('+', 4, 7)//Result should be = 11
+    basicOp('-', 15, 18)//Result should be = -3
+
+    reverseWords("hello world!")//Result should be = "world! hello"
+    reverseWords("yoda doesn't speak like this")//Result should be = "this like speak doesn't yoda"
+}
+app18();
