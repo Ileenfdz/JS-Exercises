@@ -1,5 +1,5 @@
 import {uniTotal, elevatorDistance, addBinary} from './exercise4.js';
-export function app(){
+export function app4(){
     // console.log("Connected to app");
     uniTotal("a"); //Result should be = 97
     uniTotal("b"); //Result should be = 98
