@@ -11,7 +11,7 @@ import { makeNegative } from './exercise10.js';
 import { numberToString, removeChar, findSmallestInt, summation } from './exercise11.js';
 import { squareSum, noSpace} from './exercise12.js';
 import { litres } from './exercise13.js';
-
+import { century } from './exercise14.js';
 
 
 
@@ -147,3 +147,10 @@ export function app13(){
     litres(12.3)//Result should be = "6"
 }
 app13();
+
+export function app14(){
+    // console.log("Connected to app");
+    century(1780)//Result should be = "18"
+    century(1970)//Result should be = "20"
+}
+app14();

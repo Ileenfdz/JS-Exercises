@@ -79,3 +79,6 @@ For example:
 time = 3 ----> litres = 1
 time = 6.7---> litres = 3
 time = 11.8--> litres = 5
+## Description(14)
+
+The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
