@@ -3,7 +3,7 @@ import {findOutlier} from './exercise2.js';
 import {finalGrade} from './exercise3.js';
 import {uniTotal, elevatorDistance, addBinary} from './exercise4.js';
 import {findOdd} from './exercise5.js';
-
+import {saleHotdogs} from './exercise6.js';
 
 export function app1(){
     splitStrings()
@@ -45,10 +45,20 @@ export function app4(){
 }
 app4();
 
-
 export function app5(){
     // console.log("Connected to app");
     findOdd([1,1,2,3,4,2,3,4,5,6,6,7,6,6,7]); //Result should be = 5
 }
 app5();
+
+export function app6(){
+    // console.log("Connected to app");
+    saleHotdogs(1);//Result should be = 100
+    saleHotdogs(4);//Result should be = 400
+    saleHotdogs(5);//Result should be = 475
+    saleHotdogs(9);//Result should be = 855
+    saleHotdogs(10);//Result should be = 900
+    saleHotdogs(100);//Result should be = 9000
+}
+app6();
 

@@ -7,6 +7,20 @@ Daily exercise of Js -> Elevator distance 7 Kyu.
 ## Description(2)
 
 ## Description(3)
+
+Given an array of integers, find the one that appears an odd number of times.
+
+There will always be only one integer that appears an odd number of times.
+Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
+
+This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
+
+This function should return a number (final grade). There are four types of final grades:
+
+100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.
+90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.
+75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.
+0, in other cases
 ## Description (4)
 
 --Description (ASCII Total)
@@ -35,3 +49,11 @@ Daily exercise using Js -> Find the odd int total 6 Kyu.
 Given an array of integers, find the one that appears an odd number of times.
 
 There will always be only one integer that appears an odd number of times.
+## Description(6)
+
+Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accept 1 parameters:n, n is the number of customers to buy hotdogs, different numbers have different prices (refer to the following table), return a number that the customer need to pay how much money.
+
+number	price (cents)
+n < 5	100
+n >= 5 and n < 10	95
+n >= 10	90
