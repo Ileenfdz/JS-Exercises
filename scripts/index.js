@@ -1,6 +1,6 @@
-import {splitStrings} from './exercise.js';
+import {splitStrings} from './exercise1.js';
 
-export function app(){
+export function app1(){
     console.log("Connected to app");
     splitStrings("abcdef");
     splitStrings("abcdefg");
