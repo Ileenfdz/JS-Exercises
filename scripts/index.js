@@ -14,7 +14,7 @@ import { litres } from './exercise13.js';
 import { century } from './exercise14.js';
 import { isDivisible, greet, digitize, maps } from './exercise15.js';
 import { shortcut } from './exercise16.js';
-
+import { shortcut } from './exercise17.js';
 
 
 
@@ -175,3 +175,10 @@ export function app16(){
     shortcut('how are you today?')//Result should be = 'hw r y tdy?
 }
 app16();
+
+export function app17(){
+    // console.log("Connected to app");
+    shortcut('hello')//Result should be = 'hll'
+    shortcut('how are you today?')//Result should be = 'hw r y tdy?
+}
+app17();

@@ -95,5 +95,4 @@ Given a random non-negative number, you have to return the digits of this number
 --Description (Beginner - Lost Without a Map)
 Given an array of integers, return a new array with each value doubled.
 ## Description(16)
-
-Create a function called shortcut to remove all the lowercase vowels in a given string.
+## Description(17)
