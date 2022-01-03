@@ -69,41 +69,12 @@ A hero is on his way to the castle to complete his mission. However, he's been t
 Return True if yes, False otherwise :)
 ## Description(10)
 ## Description(11)
+## Description(12)
 
-We need a function that can transform a number into a string.
+Complete the square sum function so that it squares each number passed into it and then sums the results together.
 
-Notes:
-The number can be negative already, in which case no change is required.
-Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
-What ways of achieving this do you know?
+For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 
-Examples:
-123 --> "123"
-999 --> "999"
+--Description (Remove String Spaces)
 
---Description (Remove First and Last Character)
-
-It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
-
---Description (Find the smallest integer in the array)
-
-Given an array of integers your solution should find the smallest integer.
-
-For example:
-
-Given [34, 15, 88, 2] your solution will return 2
-Given [34, -345, -1, 100] your solution will return -345
-You can assume, for the purpose of this kata, that the supplied array will not be empty.
-
---Description (Grasshopper - Summation)
-
-Summation
-Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
-
-For example:
-
-summation(2) -> 3
-1 + 2
-
-summation(8) -> 36
-1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+Simple, remove the spaces from the string, then return the resultant string.
