@@ -5,6 +5,8 @@ import {uniTotal, elevatorDistance, addBinary} from './exercise4.js';
 import {findOdd} from './exercise5.js';
 import {saleHotdogs} from './exercise6.js';
 import { opposite } from './exercise8.js';
+import { paperwork } from './exercise7.js';
+
 
 export function app1(){
     splitStrings()
@@ -63,6 +65,15 @@ export function app6(){
 }
 app6();
 
+
+export function app7(){
+    // console.log("Connected to app");
+    opposite(1)//Result should be = -1
+    opposite(14)//Result should be = -14
+    opposite(50)//Result should be = -50
+}
+app7();
+
 export function app8(){
     // console.log("Connected to app");
     opposite(1)//Result should be = -1
@@ -70,3 +81,15 @@ export function app8(){
     opposite(50)//Result should be = -50
 }
 app8();
+
+
+
+
+
+
+
+
+
+
+
+
