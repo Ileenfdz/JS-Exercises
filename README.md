@@ -2,7 +2,7 @@
 
 Daily exercise using Js -> Find the odd int total 6 Kyu.
 
-## Description
+## Description(5)
 
 Given an array of integers, find the one that appears an odd number of times.
 
