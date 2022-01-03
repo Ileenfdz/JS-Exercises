@@ -1,5 +1,5 @@
-import { squareSum, noSpace} from './exercise.js';
-export function app(){
+import { squareSum, noSpace} from './exercise12.js';
+export function app12(){
     // console.log("Connected to app");
     squareSum([1,2])//Result should be = "5"
     squareSum([0,3,4,5])//Result should be = "50"
