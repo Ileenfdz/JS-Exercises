@@ -50,10 +50,12 @@ Given an array of integers, find the one that appears an odd number of times.
 
 There will always be only one integer that appears an odd number of times.
 ## Description(6)
+## Description(8)
 
-Complete function saleHotdogs/SaleHotDogs/sale_hotdogs, function accept 1 parameters:n, n is the number of customers to buy hotdogs, different numbers have different prices (refer to the following table), return a number that the customer need to pay how much money.
+Very simple, given an integer or a floating-point number, find its opposite.
 
-number	price (cents)
-n < 5	100
-n >= 5 and n < 10	95
-n >= 10	90
+Examples:
+
+1: -1
+14: -14
+-34: 34
