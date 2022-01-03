@@ -1,4 +1,4 @@
-import {findOutlier} from './exercise.js';
+import {findOutlier} from './exercise2.js';
 
 export function app(){
     console.log("Connected to app");
