@@ -68,9 +68,42 @@ Your function takes two arguments:
 A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry.. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive?
 Return True if yes, False otherwise :)
 ## Description(10)
+## Description(11)
 
-In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+We need a function that can transform a number into a string.
 
 Notes:
 The number can be negative already, in which case no change is required.
 Zero (0) is not checked for any specific sign. Negative zeros make no mathematical sense.
+What ways of achieving this do you know?
+
+Examples:
+123 --> "123"
+999 --> "999"
+
+--Description (Remove First and Last Character)
+
+It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+--Description (Find the smallest integer in the array)
+
+Given an array of integers your solution should find the smallest integer.
+
+For example:
+
+Given [34, 15, 88, 2] your solution will return 2
+Given [34, -345, -1, 100] your solution will return -345
+You can assume, for the purpose of this kata, that the supplied array will not be empty.
+
+--Description (Grasshopper - Summation)
+
+Summation
+Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
+
+For example:
+
+summation(2) -> 3
+1 + 2
+
+summation(8) -> 36
+1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
