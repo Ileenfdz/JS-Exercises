@@ -2,7 +2,7 @@
 
 Daily exercise using Js -> Find the odd int total 6 Kyu.
 
-## Description
+## Description(13)
 
 Nathan loves cycling.
 
