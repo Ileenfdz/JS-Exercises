@@ -11,5 +11,4 @@ export function splitStrings(str) {
     }
     
     console.log(result);
-    return result;
 }
