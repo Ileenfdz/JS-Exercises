@@ -16,7 +16,7 @@
 // import { shortcut } from './exercise16.js';
 // import { getAverage } from './exercise17.js';
 // import { basicOp, reverseWords } from './exercise18.js';
-import { invert } from './exercise19.js';
+import { invert, howMuchILoveYou } from './exercise19.js';
 
 // export function app1(){
 //     // console.log("Connected to app");
@@ -202,5 +202,8 @@ export function app19(){
     // console.log("Connected to app");
     invert([1,2,3,4,5])//Result should be = [-1,-2,-3,-4,-5]
     invert([1,-2,3,-4,5])//Result should be = [-1,2,-3,4,-5]
+
+    howMuchILoveYou(7)//Result should be = "I love you"
+    howMuchILoveYou(3)//Result should be = "A lot"
 }
 app19();
