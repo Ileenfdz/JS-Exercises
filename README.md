@@ -184,6 +184,7 @@ It's the academic year's end, fateful moment of your school report. The averages
 Return the average of the given array rounded down to its nearest integer.
 
 The array will never be empty.
+
 ## Description(18)
 
 Your task is to create a function that does four basic mathematical operations.
@@ -192,3 +193,7 @@ The function should return result of numbers after applying the chosen operation
 
 --Description(Reversed Words)
 Complete the solution so that it reverses all of the words within the string passed in.
+
+## Description(19)
+
+Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
