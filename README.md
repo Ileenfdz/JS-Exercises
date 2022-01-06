@@ -208,3 +208,13 @@ madly
 not at all
 When the last petal was torn there were cries of excitement, dreams, surging thoughts and emotions.
 Your goal in this kata is to determine which phrase the girls would say for a flower of a given number of petals, where nb_petals > 0.
+
+## Description(20)
+
+Let's play! You have to return which player won! In case of a draw return Draw!.
+
+Examples:
+
+rps('scissors','paper') // Player 1 won!
+rps('scissors','rock') // Player 2 won!
+rps('paper','paper') // Draw!
