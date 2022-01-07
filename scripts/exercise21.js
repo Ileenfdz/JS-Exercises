@@ -13,3 +13,8 @@ export function fakeBin(x){
     }
     console.log(fakeBinary);
 }
+
+export function bmi(weight, height) {
+    let bmi = weight/(height*height);
+    console.log(bmi <= 18.5?"Underweight":bmi <= 25.0?"Normal":bmi <= 30.0?"Overweight":"Obese");
+}

@@ -225,3 +225,10 @@ Write a function which converts the input string to uppercase.
 
 --Description(Fake Binary)
 Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+
+--Description(Calculate BMI)
+Write function bmi that calculates body mass index (bmi = weight / height2).
+if bmi <= 18.5 return "Underweight"
+if bmi <= 25.0 return "Normal"
+if bmi <= 30.0 return "Overweight"
+if bmi > 30 return "Obese"
