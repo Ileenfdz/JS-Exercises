@@ -22,5 +22,5 @@ export function bmi(weight, height) {
 export function findAverage(array) {
   let total = 0;
   array.forEach(x => total += x)
-  console.log(total / array.length);
+  console.log(total > 0?total / array.length:total);
 }
