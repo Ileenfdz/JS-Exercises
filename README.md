@@ -222,3 +222,6 @@ rps('paper','paper') // Draw!
 ## Description(21)
 
 Write a function which converts the input string to uppercase.
+
+--Description(Fake Binary)
+Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
