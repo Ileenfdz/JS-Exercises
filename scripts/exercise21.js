@@ -18,3 +18,9 @@ export function bmi(weight, height) {
     let bmi = weight/(height*height);
     console.log(bmi <= 18.5?"Underweight":bmi <= 25.0?"Normal":bmi <= 30.0?"Overweight":"Obese");
 }
+
+export function findAverage(array) {
+  let total = 0;
+  array.forEach(x => total += x)
+  console.log(total / array.length);
+}

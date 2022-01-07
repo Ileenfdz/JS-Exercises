@@ -18,7 +18,7 @@
 // import { basicOp, reverseWords } from './exercise18.js';
 // import { invert, howMuchILoveYou } from './exercise19.js';
 // import { rockPaperScissors } from './exercise20.js';
-import { makeUpperCase, fakeBin, bmi } from './exercise21.js';
+import { makeUpperCase, fakeBin, bmi, findAverage } from './exercise21.js';
 
 // export function app1(){
 //     // console.log("Connected to app");
@@ -227,5 +227,8 @@ export function app21(){
     fakeBin('509321967506747')//Result should be = '101000111101101'
 
     bmi(80, 1.80)//Result should be = "Normal"
+
+    findAverage([1,1,1])//Result should be = "1"
+    findAverage([1,2,3])//Result should be = "2"
 }
 app21();
