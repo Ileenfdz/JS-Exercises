@@ -17,7 +17,8 @@
 // import { getAverage } from './exercise17.js';
 // import { basicOp, reverseWords } from './exercise18.js';
 // import { invert, howMuchILoveYou } from './exercise19.js';
-import { rockPaperScissors } from './exercise20.js';
+// import { rockPaperScissors } from './exercise20.js';
+import { makeUpperCase } from './exercise21.js';
 
 // export function app1(){
 //     // console.log("Connected to app");
@@ -209,10 +210,17 @@ import { rockPaperScissors } from './exercise20.js';
 // }
 // app19();
 
-export function app20(){
+// export function app20(){
+//     // console.log("Connected to app");
+//     rockPaperScissors('scissors', 'rock')//Result should be = 'Player 2 won!'
+//     rockPaperScissors('scissors', 'paper')//Result should be = 'Player 1 won!'
+//     rockPaperScissors('rock', 'rock')//Result should be = 'Draw!'
+// }
+// app20();
+
+export function app21(){
     // console.log("Connected to app");
-    rockPaperScissors('scissors', 'rock')//Result should be = 'Player 2 won!'
-    rockPaperScissors('scissors', 'paper')//Result should be = 'Player 1 won!'
-    rockPaperScissors('rock', 'rock')//Result should be = 'Draw!'
+    makeUpperCase('hola')//Result should be = 'HOLA'
+    makeUpperCase('hello world!')//Result should be = 'HELLO WORLD!'
 }
-app20();
+app21();
