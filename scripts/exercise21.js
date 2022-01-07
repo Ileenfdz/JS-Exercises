@@ -24,3 +24,13 @@ export function findAverage(array) {
   array.forEach(x => total += x)
   console.log(total > 0?total / array.length:total);
 }
+
+export function arrayPlusArray(arr1, arr2) {
+  let reducedFirstArray = arr1.reduce((a, b) => a + b);
+  let reducedSecondArray = arr2.reduce((x, y) => x + y);
+  console.log(reducedFirstArray + reducedSecondArray);
+}
+
+export function check(a, x) {
+  console.log(a.find(i => i == x)?true:false);
+}

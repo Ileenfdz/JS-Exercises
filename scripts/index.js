@@ -18,7 +18,7 @@
 // import { basicOp, reverseWords } from './exercise18.js';
 // import { invert, howMuchILoveYou } from './exercise19.js';
 // import { rockPaperScissors } from './exercise20.js';
-import { makeUpperCase, fakeBin, bmi, findAverage } from './exercise21.js';
+import { makeUpperCase, fakeBin, bmi, findAverage, arrayPlusArray, check } from './exercise21.js';
 
 // export function app1(){
 //     // console.log("Connected to app");
@@ -230,5 +230,11 @@ export function app21(){
 
     findAverage([1,1,1])//Result should be = "1"
     findAverage([1,2,3])//Result should be = "2"
+
+    arrayPlusArray([1, 2, 3], [4, 5, 6])//Result should be = "21"
+    arrayPlusArray([-1, -2, -3], [-4, -5, -6])//Result should be = "-21"
+
+    check([66, 101], 66)//Result should be = "true"
+    check(['what', 'a', 'great', 'kata'], 'kat')//Result should be = "false"
 }
 app21();
