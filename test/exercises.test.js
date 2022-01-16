@@ -1,4 +1,4 @@
-const splitStrings= require('../scripts/exerciseOne.js'), findOutlier = require('../scripts/exerciseTwo.js'), finalGrade = require('../scripts/exerciseThree.js'), uniTotal = require('../scripts/exerciseFour.js'), elevatorDistance = require('../scripts/exerciseFive.js');
+const splitStrings= require('../scripts/exerciseOne.js'), findOutlier = require('../scripts/exerciseTwo.js'), finalGrade = require('../scripts/exerciseThree.js'), uniTotal = require('../scripts/exerciseFour.js'), elevatorDistance = require('../scripts/exerciseFive.js'), getPhrase = require('../scripts/vowels.js');
 
 describe('Testing all exercises made to practice testing', () => {
 
@@ -26,6 +26,12 @@ describe('Testing all exercises made to practice testing', () => {
         expect(elevatorDistance([5,2,8])).toBe(9);
     })
     
+    test('Vowels', () => {
+        expect(getPhrase('la')).toBe('a');
+        expect(getPhrase('lela')).toBe('ea');
+        expect(getPhrase('lelala')).toBe('ea');
+        expect(getPhrase("Hola que tal")).toBe('oaue');
+    })
 
 })
 
