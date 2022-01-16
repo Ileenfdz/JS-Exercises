@@ -1,0 +1,23 @@
+{
+  "name": "js-exercises",
+  "version": "1.0.0",
+  "description": "Daily exercise of Js -> Elevator distance 7 Kyu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ileenfdz/JS-Exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ileenfdz/JS-Exercises/issues"
+  },
+  "homepage": "https://github.com/Ileenfdz/JS-Exercises#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
