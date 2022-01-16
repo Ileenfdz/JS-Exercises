@@ -2,6 +2,17 @@
 
 Daily exercise of Js -> Elevator distance 7 Kyu.
 
+## Installation
+
+-npm install
+
+## Using
+
+-jest
+
+## For testing use:
+
+-npm test
 ## Description(1)
 
 Complete the solution so that it splits the string into pairs of two characters.
